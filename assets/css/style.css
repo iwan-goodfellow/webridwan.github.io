@@ -62,5 +62,27 @@ footer {
     color: white !important;
 }
 
+/* Dark mode styles */
+.dark-mode .card {
+    background-color: #222; /* Dark background */
+    color: white; /* Text jadi putih */
+    border: 1px solid #444; /* Border lebih soft */
+}
+
+.dark-mode .card-footer {
+    background-color: #222; /* Sama kayak card */
+    border-top: 1px solid #444;
+}
+
+.dark-mode .btn-primary {
+    background-color: #555; /* Button lebih gelap */
+    border-color: #777;
+}
+
+.dark-mode .btn-primary:hover {
+    background-color: #666; /* Hover sedikit lebih terang */
+}
+
+
 
 
